@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_short_name">MJLauncher</string>
+    <string name="app_short_name">PolarLauncher</string>
 
     <!-- Action bar part -->
 
@@ -12,7 +12,7 @@
     <string name="login_online_login_label">Login</string>
 
     <!-- Hint -->
-    <string name="hint_control_mapping">Touch the cogwheel icon to open the context menu ⚙\nTap a button to customize: edit, resize, remove, or change its keybinds.</string>
+    <string name="hint_control_mapping">options.</string>
 
     <!-- Warnings -->
     <string name="warning_remove_account">This account will be removed!</string>
@@ -21,7 +21,7 @@
     <string name="alerttitle_installmod">Select a mod installer</string>
 
     <!-- Error messages -->
-    <string name="error_fatal">MJLauncher has unexpectedly crashed</string>
+    <string name="error_fatal">PolarLauncher has unexpectedly crashed</string>
     <string name="error_no_version">No version!</string>
     <string name="error_show_more">Show more</string>
     <string name="error_show_less">Show less</string>
@@ -66,7 +66,7 @@
     <string name="mcl_setting_renderer_gles2_4">Holy GL4ES - all versions till 1.21.4, fast</string>
     <string name="mcl_setting_renderer_vulkan_zink">Zink (Vulkan) - all versions, mid</string>
     <string name="mcl_setting_renderer_freedreno_kgsl">Freedreno - all versions, fast, Adreno-only</string>
-    <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - 1.17+ only, fast</string>
+    <string name="mcl_setting_renderer_ltw">LTW (OpenGL ES 3) - 1.17+ only,JUST USE THIS</string>
     <string name="mcl_setting_veroption_release">Release</string>
     <string name="mcl_setting_veroption_snapshot">Snapshot</string>
     <string name="mcl_setting_veroption_oldalpha">Old-alpha</string>
@@ -274,7 +274,7 @@
     <string name="preference_gyro_sample_rate_title">Gyroscope sampling rate</string>
     <string name="preference_gyro_sample_rate_description">If you have performance issues with gyroscope controls, increase this.</string>
     <string name="microsoft_login_retry_later">Too many requests, please try again later.</string>
-    <string name="storage_required">MJLauncher requires external storage to be attached. Please reconnect it and restart the app.</string>
+    <string name="storage_required">PolarLauncher requires external storage to be attached. Please reconnect it and restart the app.</string>
     <string name="mcl_setting_title_buttonallcaps">Only use capital letters in button labels</string>
     <string name="mcl_setting_subtitle_buttonallcaps">Disable this if you want to use lowercase letters in your controls.</string>
     <string name="create_instance">Create new instance</string>
@@ -346,7 +346,7 @@
     <string name="modpack_download_downloading_mods">Downloading mods (%.2f MB / %.2f MB)</string>
     <string name="modpack_download_downloading_mods_fc">Downloading mods (File %d out of %d)</string>
     <string name="modpack_download_applying_overrides">Applying overrides (%d/%d)</string>
-    <string name="modpack_install_notification_title">MJ Modpack Installer</string>
+    <string name="modpack_install_notification_title">Polar Modpack Installer</string>
     <string name="modpack_install_notification_success">Click here to finish modpack installation</string>
     <string name="modpack_install_notification_data_not_available">Failed to download mod loader information</string>
     <string name="modpack_install_modloader_download_failed">Failed to download the mod loader files</string>
@@ -378,7 +378,7 @@
     <string name="preference_category_miscellaneous">Miscellaneous settings</string>
     <string name="preference_category_video">Video settings</string>
     <string name="notification_permission_dialog_title">Permission request</string>
-    <string name="notification_permission_dialog_text">MJLauncher requires a permission to post notifications to prevent game/modpack downloads from stopping when you leave the app. Without this permission, Android may shut down your downloads when you put MJLauncher in background mode.</string>
+    <string name="notification_permission_dialog_text">PolarLauncher requires a permission to post notifications to prevent game/modpack downloads from stopping when you leave the app. Without this permission, Android may shut down your downloads when you put MJLauncher in background mode.</string>
     <string name="notification_permission_toast">You can always change your mind later by going into Settings</string>
     <string name="preference_ask_for_notification_title">Allow notifications</string>
     <string name="preference_ask_for_notification_description">Click to re-request the notification permission, required for game/modpack background downloads to work properly.</string>
