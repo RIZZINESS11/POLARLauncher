@@ -1,17 +1,15 @@
 
-name: Build Android APK
+name: Build POLARLauncher APK
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Java
@@ -21,13 +19,13 @@ jobs:
           java-version: '17'
 
       - name: Build APK
-  run: |
-    chmod +x gradlew
-    ./gradlew :app_pojavlauncher:assembleDebug
+        run: |
+          chmod +x gradlew
+          ./gradlew :app_pojavlauncher:assembleDebug
 
       - name: Upload APK
-  uses: actions/upload-artifact@v4
-  with:
-    name: POLARLauncher-APK
-    path: app_pojavlauncher/build/outputs/apk/debug/*.apk
-    
+        uses: actions/upload-artifact@v4
+        with:
+          name: POLARLauncher-APK
+          path: '**/build/outputs/apk/debug/*.apk'
+          
