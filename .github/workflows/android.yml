@@ -21,13 +21,13 @@ jobs:
           java-version: '17'
 
       - name: Build APK
-        run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+  run: |
+    chmod +x gradlew
+    ./gradlew :app_pojavlauncher:assembleDebug
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: Android-APK
-          path: app/build/outputs/apk/debug/PolarLauncher.apk
-          
+  uses: actions/upload-artifact@v4
+  with:
+    name: POLARLauncher-APK
+    path: app_pojavlauncher/build/outputs/apk/debug/*.apk
+    
