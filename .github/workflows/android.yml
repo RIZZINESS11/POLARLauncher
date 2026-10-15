@@ -21,7 +21,7 @@ jobs:
       - name: Build APK
         run: |
           chmod +x gradlew
-          ./gradlew :app_pojavlauncher:assembleDebug
+            ./gradlew :app_pojavlauncher:assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
